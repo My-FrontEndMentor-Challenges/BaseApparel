@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 :root {
   --main-text-color: hsl(0, 36%, 70%);
+  --error-text: hsl(0, 36%, 70%);
+  --error-border: hsl(0, 93%, 68%);
 }
 *,
 *::before,
@@ -106,10 +108,13 @@ header {
   top: 100%;
   margin: 0.5rem 0 0 1rem;
   font-size: 0.7rem;
-  color: var(--main-text-color);
+  color: var(--error-text);
   font-weight: 600;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
+}
+.active-error-border {
+  border: 1px solid var(--error-border);
 }
 .active-error {
   opacity: 1;
