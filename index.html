@@ -5,12 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Base Apparel</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
-    <nav>
-      <h1>Base Apparel</h1>
-    </nav>
+    <!-- Header -->
+    <header>
+      <nav>
+        <img src="assets/logo.svg" alt="base apparel logo" class="nav-logo" />
+      </nav>
+    </header>
+    <img
+      src="assets/hero-mobile.jpg"
+      alt="women wearing base apparel clothing"
+    />
+    <!-- Main Text -->
+    <div class="text-content">
+      <h1 class="main-title">
+        WE'RE<br />
+        <span class="main-bold">COMING<br />SOON</span>
+      </h1>
+      <p class="p-text">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our
+        launch deals.
+      </p>
+    </div>
+    <!-- Form -->
+    <form class="form">
+      <div class="input-container">
+        <input type="email" placeholder="Email Address" class="input-email" />
+        <button class="right-arrow-container">
+          <img
+            src="assets/icon-arrow.svg"
+            alt="right arrow"
+            class="right-arrow"
+          />
+        </button>
+        <!-- Form Error -->
+        <img
+          src="assets/icon-error.svg"
+          alt="exclamation point with red background"
+          class="error-icon"
+        />
+        <div class="error-p">Please provide a valid email</div>
+      </div>
+    </form>
   </body>
 </html>
