@@ -26,6 +26,9 @@ header {
   height: 20px;
   margin-left: 2rem;
 }
+.hero-image-mobile {
+  justify-self: center;
+}
 .hero-image-desktop {
   display: none;
 }
@@ -121,7 +124,7 @@ header {
   transition: opacity 0.2s ease-in-out;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero-image-mobile {
     display: none;
   }
